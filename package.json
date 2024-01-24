@@ -1,0 +1,22 @@
+{
+  "name": "silence-theme",
+  "displayName": "Silence Theme",
+  "description": "Silence Dark Theme",
+  "version": "0.0.1",
+  "publisher": "silence-theme",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Silence Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Silence Dark-color-theme.json"
+      }
+    ]
+  }
+}
