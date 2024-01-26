@@ -2,7 +2,7 @@
 	"name": "Silence Dark",
 	"colors": {
 		"editor.background": "#15141b",
-		"editor.foreground": "#edecee",
+		"editor.foreground": "#bcf9ed", //default text color (css elements, index.styles.ts elements, etc)//default--#edecee
 		"activityBarBadge.background": "#a277ff",
 
 		"sideBarTitle.foreground": "#adacae",
@@ -61,7 +61,7 @@
                 "meta.diff.header"
             ],
             "settings": {
-                "foreground": "#a7a0a0cc"//5824247e
+                "foreground": "#5824247e"//#5824247e--red// #a7a0a0cc--gray(default)
             }
         },
         {
@@ -224,6 +224,43 @@
             ],
             "settings": {
                 "foreground": "#96E072"
+            }
+        },
+        {
+            "name": "LightBlue",
+            "scope": [
+                "keyword.operator.css,keyword.operator.scss,keyword.operator.less",
+                "support.type.vendored.property-name.css",
+                // "keyword.operator.logical",
+                // "keyword.operator.bitwise",
+                // "keyword.operator.channel",
+                // "support.type.object.dom",
+                // "keyword.operator.arithmetic,keyword.operator.comparison,keyword.operator.decrement,keyword.operator.increment,keyword.operator.relational",
+                // "support.type.posix-reserved.c,support.type.posix-reserved.cpp",
+                // "support.type.python",
+                // "keyword.operator.assignment.compound.js,keyword.operator.assignment.compound.ts",
+                // "support.function",
+                // "constant.other.symbol",
+                // "string.regexp",
+                // "constant.character.escape",
+                // "source.json meta.structure.dictionary.json > constant.language.json,source.json meta.structure.array.json > constant.language.json",
+                // "keyword.operator.logical.php,keyword.operator.bitwise.php,keyword.operator.arithmetic.php",
+                // "keyword.operator.comparison.php",
+                // "support.token.decorator.python,meta.function.decorator.identifier.python",
+                // "constant.language.symbol.ruby",
+                // "rgb-value",
+                // "keyword.operator.assignment",
+                // "support.type.prelude.elm",
+                // "entity.other.attribute-name.pseudo-element",
+                // "entity.other.attribute-name.pseudo-class",
+                // "constant.keyword.clojure",
+                // "entity.name.class.xi",
+                // "keyword.control.xi",
+                // "constant.language.symbol.elixir",
+                // "index.styles.ts"
+            ],
+            "settings": {
+                "foreground": "#66b8d8"//css webkits - :first-child :before etc 
             }
         },
         {
